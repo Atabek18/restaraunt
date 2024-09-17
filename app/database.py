@@ -3,7 +3,7 @@ from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
 
 
-engine = create_engine('postgresql://postgres:victus@localhost:5432/postgres')
+engine = create_engine('postgresql://victus:NMMHWlAFIuIA9FyTkuH3naH2xYYrFA91@dpg-crkg81ogph6c73c9ofcg-a.oregon-postgres.render.com/restaraunt')
 
 SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
 
